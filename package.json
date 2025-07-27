@@ -1,0 +1,50 @@
+{
+  "name": "cleanmypc",
+  "version": "1.0.0",
+  "description": "Professional cross-platform CLI tool for system cleanup",
+  "main": "dist/index.js",
+  "bin": {
+    "cleanmypc": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "dev": "ts-node src/cli.ts",
+    "watch": "nodemon --exec ts-node src/cli.ts",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm run clean && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "cleanup",
+    "system",
+    "cache",
+    "temp",
+    "cross-platform"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "bytes": "^3.1.2",
+    "chalk": "^5.4.1",
+    "commander": "^14.0.0",
+    "fast-glob": "^3.3.3",
+    "fs-extra": "^11.3.0",
+    "inquirer": "^12.8.2",
+    "ora": "^8.2.0",
+    "pretty-bytes": "^7.0.0",
+    "rimraf": "^6.0.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/inquirer": "^9.0.8",
+    "@types/node": "^24.1.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

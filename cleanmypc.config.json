@@ -1,0 +1,37 @@
+{
+  "largeFileThreshold": 1073741824,
+  "customTempPaths": [],
+  "customCachePaths": [],
+  "downloadsPath": "",
+  "exclusions": [
+    "System Volume Information",
+    "$RECYCLE.BIN",
+    "Windows",
+    "Program Files",
+    "node_modules",
+    ".git"
+  ],
+  "browsers": {
+    "chrome": true,
+    "firefox": true,
+    "edge": true,
+    "safari": false
+  },
+  "organizeDownloads": {
+    "enabled": true,
+    "categories": {
+      "Images": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".svg", ".webp", ".ico"],
+      "Videos": [".mp4", ".avi", ".mkv", ".mov", ".wmv", ".flv", ".webm", ".m4v"],
+      "Audio": [".mp3", ".wav", ".flac", ".aac", ".ogg", ".wma", ".m4a"],
+      "Documents": [".pdf", ".doc", ".docx", ".txt", ".rtf", ".odt", ".pages"],
+      "Spreadsheets": [".xls", ".xlsx", ".csv", ".ods", ".numbers"],
+      "Presentations": [".ppt", ".pptx", ".odp", ".key"],
+      "Archives": [".zip", ".rar", ".7z", ".tar", ".gz", ".bz2", ".xz"],
+      "Installers": [".exe", ".msi", ".dmg", ".pkg", ".deb", ".rpm", ".appimage"],
+      "Code": [".js", ".ts", ".html", ".css", ".py", ".java", ".cpp", ".c", ".php", ".rb"]
+    }
+  },
+  "confirmDeletions": true,
+  "backupBeforeDelete": false,
+  "maxFileAge": 0
+}
