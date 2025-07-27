@@ -50,9 +50,6 @@ node dist/cli.js
 # Build first for production use
 npm run build
 
-# Full interactive menu
-node dist/cli.js
-
 # Dry run (preview only) - ALWAYS TEST WITH THIS FIRST
 node dist/cli.js --dry-run
 
